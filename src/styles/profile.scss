@@ -1,0 +1,83 @@
+@import "./styles/global.scss";
+
+.profile-type-block,
+.action-type-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 75px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+
+  & > button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: $LowBig_Font_Size;
+    font-weight: 600;
+  }
+
+  & > button.active {
+    background: linear-gradient(182.67deg, #ffffff 24.24%, #efefef 90.54%);
+    box-shadow: 0px 0px 70px rgba(40, 39, 49, 0.05);
+  }
+}
+
+.action-type-block{
+  padding: 0 275px;
+  margin-top: 25px;
+  border: solid #e7e7e7;
+  border-width: 1px 0 0 0;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: $Big_Font_Size;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.blue-button {
+  background: #117BCD;
+  padding: 15px 0;
+  color: white;
+  font-size: $LowBig_Font_Size;
+  display: block;
+  border-radius: 100px;
+  transition: 0.3s;
+
+  &:disabled{
+    background: #E7E7E7;
+    color: #C1C1C1;
+  }
+
+  &:enabled:hover{
+    background: #0052B4;
+  }
+}
+
+.form-width{
+  padding-bottom: 100px !important;
+}
+
+@media only screen and (max-width: 768px){
+  .profile-type-block, .action-type-block{
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+
+    & > button{
+      font-size: $LowMedium_Font_Size;
+      white-space: nowrap;
+    }
+  }
+
+  .action-type-block{
+    padding-top: 30px !important;
+    margin-top: 15px;
+    border: solid #E7E7E7 !important;
+    border-width: 1px 0 0 0 !important;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+}

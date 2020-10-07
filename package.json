@@ -1,0 +1,68 @@
+{
+  "name": "BaikalTours",
+  "version": "0.0.1",
+  "description": "Baikal Tours",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelopFroZo/Baikal-Tours.git"
+  },
+  "author": "CSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevelopFroZo/Baikal-Tours/issues"
+  },
+  "homepage": "https://github.com/DevelopFroZo/Baikal-Tours#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.1",
+    "connect-pg-simple": "^6.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.2",
+    "imask": "^6.0.5",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.2",
+    "pg": "^7.17.1",
+    "sapper-page-loading-bar": "^1.0.0",
+    "sirv": "^0.4.2",
+    "svelte-loading-spinners": "0.0.16",
+    "swiper": "^6.2.0",
+    "transliteration": "^2.1.8",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@beyonk/svelte-carousel": "^2.4.0",
+    "@editorjs/editorjs": "^2.17.0",
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "@rollup/plugin-replace": "^2.2.0",
+    "install": "^0.13.0",
+    "node-sass": "^4.13.0",
+    "npm": "^6.13.6",
+    "npm-run-all": "^4.1.5",
+    "or": "^0.2.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-root-import": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.1",
+    "rollup-plugin-terser": "^4.0.4",
+    "sapper": "^0.27.11",
+    "sass": "^1.24.4",
+    "svelte": "^3.17.1",
+    "svelte-preprocess": "^3.3.0",
+    "svelte-scrollto": "^0.1.1"
+  }
+}
